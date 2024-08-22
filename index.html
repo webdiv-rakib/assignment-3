@@ -16,6 +16,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        'color-1': '#ABEF5F'
                     }
                 }
             }
@@ -38,12 +39,71 @@
     <title>Rinterio</title>
 </head>
 
-<body>
-    <header>
-
+<body class="font-manrope">
+    <header class="container mx-auto">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <!-- <div class="dropdown">
+                        <div tabindex="1" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Item 1</a></li>
+                            <li>
+                                <a>Parent</a>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a>Item 3</a></li>
+                        </ul>
+                    </div> -->
+                    <a class="btn btn-ghost text-xl text-3xl font-extrabold"><i
+                            class="fa-solid fa-arrow-right -rotate-45 bg-color-1 p-3 rounded-full"></i>Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="px-1 flex gap-9">
+                        <li><a class="hover:font-extrabold hover:text-color-1">Home</a></li>
+                        <li><a class="hover:font-extrabold hover:text-color-1">Services</a></li>
+                        <li><a class="hover:font-extrabold hover:text-color-1">Portfolio</a></li>
+                        <li><a class="hover:font-extrabold hover:text-color-1">Blogs</a></li>
+                        <li><a class="hover:font-extrabold hover:text-color-1">Contact Us</a></li>
+                        <!-- <li>
+                            <details>
+                                <summary>Parent</summary>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </details>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="navbar-end flex gap-5">
+                    <i class="fa-solid fa-magnifying-glass border-2 p-3 rounded-full hidden md:block bg-white"></i>
+                    <i class="fa-solid fa-cart-shopping border-2 p-3 rounded-full hidden md:block bg-white"></i>
+                    <div class="hidden md:block flex">
+                        <button class="btn bg-color-1 w-max rounded-3xl text-xl font-extrabold">Book Consult<i
+                                class="fa-solid fa-arrow-right -rotate-45 bg-black p-2 rounded-full text-white"></i></button>
+                    </div>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 md:hidden border-2 rounded-full bg-white drop-shadow-2xl" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
-
     </main>
     <footer>
 
