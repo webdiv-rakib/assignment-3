@@ -35,7 +35,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon">
 
+    <!-- Css for color -->
     <style>
         .font-manrope {
             font-family: "Manrope", sans-serif;
@@ -83,7 +85,7 @@
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="px-1 flex gap-9">
-                        <li><a class="hover:text-color-1 font-extrabold">Home</a></li>
+                        <li><a class="hover:text-color-1 font-extrabold" href="#rakib">Home</a></li>
                         <li><a class="hover:text-color-1">Services</a></li>
                         <li><a class="hover:text-color-1">Portfolio</a></li>
                         <li><a class="hover:text-color-1">Blogs</a></li>
@@ -212,7 +214,7 @@
         </section>
 
         <!-- Work Process section -->
-        <section class="bg-base-200">
+        <section class="bg-base-200" id="rakib">
             <div class="container mx-auto md:pt-10 pt-5 pb-10">
                 <div class="text-center md:w-1/2 mx-auto">
                     <button class="p-3 rounded-full px-5 drop-shadow-2xl bg-white font-bold"><i
@@ -438,48 +440,48 @@
                             View all categories <i class="fa-solid fa-arrow-right"></i></button>
                     </div>
                 </div>
-                <div class="md:flex md:justify-center md:gap-4 mt-10 md:px-5 mb-10">
-                    <div class="card group bg-base-100 image-full w-96 shadow-2xl mt-6 mx-auto">
+                <div class="md:flex md:justify-center md:gap-4 mt-10 md:px-5 mb-10 px-5">
+                    <div class="card bg-base-100 image-full w-96 shadow-2xl mt-6 mx-auto">
                         <figure>
                             <img src="assets/town-house.jpg" alt="Shoes" />
                         </figure>
-                        <div class="card-body hidden group-hover:block">
+                        <div class="card-body">
                             <h2 class="card-title">Town House</h2>
                             <p>2 properties</p>
                         </div>
                     </div>
-                    <div class="card group bg-base-100 image-full w-96 shadow-2xl mt-6 mx-auto">
+                    <div class="card bg-base-100 image-full w-96 shadow-2xl mt-6 mx-auto">
                         <figure>
                             <img src="assets/modern-villa.jpg" alt="Shoes" />
                         </figure>
-                        <div class="card-body hidden group-hover:block">
+                        <div class="card-body">
                             <h2 class="card-title">Modern Villa</h2>
                             <p>10 properties</p>
                         </div>
                     </div>
-                    <div class="card group bg-base-100 image-full w-96 shadow-2xl mt-6 mx-auto">
+                    <div class="card bg-base-100 image-full w-96 shadow-2xl mt-6 mx-auto">
                         <figure>
                             <img src="assets/apartment.jpg" alt="Shoes" />
                         </figure>
-                        <div class="card-body hidden group-hover:block">
+                        <div class="card-body">
                             <h2 class="card-title">Apartment</h2>
                             <p>3 properties</p>
                         </div>
                     </div>
-                    <div class="card group bg-base-100 image-full w-96 shadow-2xl mt-6 mx-auto">
+                    <div class="card bg-base-100 image-full w-96 shadow-2xl mt-6 mx-auto">
                         <figure>
                             <img src="assets/single-family.jpeg" alt="Shoes" />
                         </figure>
-                        <div class="card-body hidden group-hover:block">
+                        <div class="card-body">
                             <h2 class="card-title">Single Family</h2>
                             <p>5 properties</p>
                         </div>
                     </div>
-                    <div class="card group bg-base-100 image-full w-96 shadow-2xl mt-6 mx-auto">
+                    <div class="card bg-base-100 image-full w-96 shadow-2xl mt-6 mx-auto">
                         <figure>
                             <img src="assets/office.jpg" alt="Shoes" />
                         </figure>
-                        <div class="card-body hidden group-hover:block">
+                        <div class="card-body">
                             <h2 class="card-title">Office</h2>
                             <p>3 properties</p>
                         </div>
@@ -529,6 +531,8 @@
             </div>
         </section>
     </main>
+
+    <!-- Footer section -->
     <footer class="footer footer-center bg-black text-base-content rounded p-10">
         <div class="text-center">
             <h1 class="text-2xl font-extrabold text-white"><i
@@ -545,10 +549,11 @@
             <a class="link link-hover">Contact Us</a>
         </nav>
         <aside>
-            <button class="btn bg-color-1 w-max rounded-3xl text-xl font-extrabold">Book Consult<i
+            <button class="bg-color-1 w-max rounded-full text-xl font-extrabold px-4 py-2">Book Consult <i
                     class="fa-solid fa-arrow-right -rotate-45 bg-black p-2 rounded-full text-white"></i></button>
         </aside>
     </footer>
+
 </body>
 
 </html>
